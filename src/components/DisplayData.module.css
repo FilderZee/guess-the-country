@@ -60,3 +60,25 @@
     align-items: center;
     gap: 4em;
 }
+
+.input__container {
+    display: flex;
+    gap: 1em;
+}
+
+.guess__btn {
+    padding: .5em;
+    border-radius: 5px;
+    background-color: #bdc2ce;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.guess__btn:hover {
+    background-color: #254291;
+}
+
+.title {
+    font-size: 3em;
+}
